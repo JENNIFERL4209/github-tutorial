@@ -6,7 +6,7 @@ _By Jennifer Liu_
 ## Git vs. GitHub
 Git: keeps "snapshots" of your codes  
 **Does not require Github**  
-Github: stores code in the cloud  
+Github: stores code in the cloud, which is known as [Github](www.github.com)  
 **Requires Git**
 
 ---
@@ -32,6 +32,30 @@ Github: stores code in the cloud
 
 ---
 ## Repository Setup
+**_Creating a repository on Github:_**
+1. Click on the **add** icon
+    1. ![repo-setup-1](https://preview.c9users.io/jenniferl4209/github-learning/github-tutorial/repo-setup-1.png?_c9_id=livepreview2&_c9_host=https://ide.c9.io)
+2. Give your repository a name and add description if you want and click on **Create repository**
+    1. ![repo-setup-2](https://preview.c9users.io/jenniferl4209/github-learning/github-tutorial/repo-setup-2.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)  
+
+###### _Woo hoo! You just created a new repository on your Github!_
+
+3. Now you should **clone** your repository to c9
+    1. ![clone](https://preview.c9users.io/jenniferl4209/github-learning/github-tutorial/clone.png)
+
+
+##### **_Initialize Your Repository:_**
+1. Sign into your c9 account and open up you workspace
+2. When you are in your workspace, you should **NEVER EVER** `git init` in your **_workspace_**
+3. You should `cd` into the directory, or folder (Github: repository) you are working in right away
+    1. Git init (initialize git for version control, taking snapshots of your codes)
+    2. ![git-init](https://preview.c9users.io/jenniferl4209/github-learning/github-tutorial/git-init.png?_c9_id=livepreview4&_c9_host=https://ide.c9.io)
+    3. when you see **(master)**, this means that your directory is initialized
+
+**_Git Add:_**
+
+
+
 
 
 
