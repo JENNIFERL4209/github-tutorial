@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_By Jennifer Liu_
+_By Jennifer_
 
 ---
 ## Git vs. GitHub
@@ -8,7 +8,6 @@ Git: keeps "snapshots" of your codes
 **Does not require Github**  
 Github: stores code in the cloud, which is known as [Github](www.github.com)  
 **Requires Git**
-
 ---
 ## Initial Setup
 **_Creating a Github account:_**
@@ -60,18 +59,37 @@ Github: stores code in the cloud, which is known as [Github](www.github.com)
 **_Git Commit_**
 1. `git commit -m "message"` means taking a "snapshot" of the file you currently edited
     1. should be in the present tense
-
-
-
-
-
-
-
-
 ---
 ## Workflow & Commands
+**_Git Status:_**
+1. a command to see which files have been edited since their last commit and which files are staged to commit 
+2. `git status` is how you will see the files that have been edited or to be commited
 
+**_Git Add:_**
+1. a command that adds files to the stage area waiting to be commited
+2. `git add <filename>` is how to add files
 
+**_Git Commit:_**
+1. a command that takes snapshot of codes and use a short/specific message to explain the code
+2. `git commit -m "message"`the message should be in quotations
+
+**_Git Push:_**
+1. a command that sends commits from the local repo (cloud9) to the remote repo (Github) 
+2. In order to `git push`:
+    1. `git remote add origin URL`:
+        1. setting up a connection with the crrent repo and the external repo (Github) and origin is the nickname for the remotes
+        2. URL is the link of the location of the remote repo
+        3. _By doing this, you can git push now_ [see below]
+    2. `git push -u origin master`:
+        1. -u allows git to remember which remote to push when you type `git push` in the future
+        2. origin is the remote repo we are pushing to
+        3. master is the branch of the project (you always see **master** when you initialize git)
+    3. After these commands, you can `git push` to send commits to Github now  
+
+_Woo hoo! You just learned how to push commits to Github!_
 
 ---
 ## Rolling Back Changes
+**_Undo Edits:_**
+1. The purpose is that if you are working a project with someone, and you edit the file that may cause conflicting problems later, you can **undo the edits**
+2. 
