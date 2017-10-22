@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_By Jennifer_
+_By Jennifer Liu_
 
 ---
 ## Git vs. GitHub
@@ -92,4 +92,108 @@ _Woo hoo! You just learned how to push commits to Github!_
 ## Rolling Back Changes
 **_Undo Edits:_**
 1. The purpose is that if you are working a project with someone, and you edit the file that may cause conflicting problems later, you can **undo the edits**
-2. 
+2. After you make changes to your file, type `git status`
+3. You will see:
+4. Type `git checkout <filename>` to undo the edit you made
+
+**_Undo Adds:_**
+1. The purpose is that you may have edited two files and added both to the stage. However, you wanted to add one file to the stage, and now you need to remove the file from the stage 
+2. Type `git add <filename>` and do `git status`
+3. In the git status, you will see that the file is _green_
+    1. Above the file, it said `git reset HEAD <filename>`
+    2. Type that and do `git status` again
+    3. You will see that the file is _red_  
+
+_You just remove the file from the stage!_ 
+
+**_Undo Commits:_**
+1. Sometimes, you just don't want to take a snapshot of your codes at the moment. Luckily, you can **undo a commit**!
+2. `git log` shows all your commits in a list and the commit and the **top** is the most recent one
+3. Press Q to quit `git log`
+3. After you see your latest commit, type `git reset --soft HEAD~1`
+4. Type `git log` again  
+
+_OMG! Did you see that your latest commit is **GONE**?_  
+`git reset --soft HEAD~1` is your **git saver :)**
+
+**_Undo Push:_**
+1. When you push your commit to Github, but this may ruin your collaborator's code if what you commit is crushing theirs. No worries! You can **undo your push!**
+2. After you type `git push`, type `git log`
+3. Your latest commit have a series of numbers, which is the **SHA**
+4. Press Q to quit and type `git revert <SHA>`
+5. After `git revert <SHA>`, you will see the following:
+6. Press Control X to exit and choose **Y** if you want to save the change or **N** if you don't want to undo the push  
+
+_Woo hoo! You just learned how to undo your pushed commit!_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
