@@ -3,11 +3,13 @@
 _By Jennifer Liu_
 
 ---
-## Git vs. GitHub
+## Git vs. GitHub  
+
 Git: keeps "snapshots" of your codes  
 **Does not require Github**  
 Github: stores code in the cloud, which is known as [Github](www.github.com)  
-**Requires Git**
+**Requires Git**  
+
 ---
 ## Initial Setup
 **_Creating a Github account:_**
