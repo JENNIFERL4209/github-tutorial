@@ -7,7 +7,7 @@ _By Jennifer Liu_
 
 Git: keeps "snapshots" of your codes  
 **Does not require Github**  
-Github: stores code in the cloud, which is known as [Github](www.github.com)  
+Github: stores code in the cloud, which is known as [Github](https://github.com/)  
 **Requires Git**  
 
 ---
