@@ -28,7 +28,8 @@ Github: stores code in the cloud, which is known as [Github](https://github.com/
 1. Click on _your profile_ and go to _settings_ then click on **SSH and GPG Keys**
     1. ![ssh-key-1](https://preview.c9users.io/jenniferl4209/github-learning/github-tutorial/ssh-key-1.png?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
 2. Click on _New SSH Key_ and name it _cloud9_ because the SSH Key should connect with cloud9 for coding and allows you to `git push` (sending commits from the local repo [cloud9] to remote repo [Github]
-    1. On your cloud9 click on **settings** and you will find **SSH Keys**. You will copy the SSH Key code to Github and _add_. 
+    1. On your cloud9 click on **settings** and you will find **SSH Keys**. You will copy the SSH Key code to Github and _add_
+    2. ![ssh-key-2](https://preview.c9users.io/jenniferl4209/github-learning/github-tutorial/ssh-key-2.png)
 3. Now when you reopen cloud9, it will tell you that you are connected to Github
 
 **When you create a new repository and clone to your cloud9, you should make sure your SSH Key is selected and copy and paste the ...** _I am not sure what you mean by the "..."_  
