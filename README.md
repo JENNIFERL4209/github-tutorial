@@ -41,7 +41,7 @@ Github: stores code in the cloud, which is known as [Github](https://github.com/
 ## Repository Setup  
 **_Creating a repository on Github:_**
 1. Click on the **add** icon
-    1. ![repo-setup-1](repo-setup-1.png)
+    1. ![repo-setup-1](https://preview.c9users.io/jenniferl4209/github-learning/github-tutorial/repo-setup-1.png)
 2. Give your repository a name and add description if you want and click on **Create repository**
     1. ![repo-setup-2](https://preview.c9users.io/jenniferl4209/github-learning/github-tutorial/repo-setup-2.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)  
 3. Now, go to your c9 workspace
