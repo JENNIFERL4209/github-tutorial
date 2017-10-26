@@ -56,9 +56,9 @@ Github: stores code in the cloud, which is known as [Github](https://github.com/
 8. Type `git add README.md` to add the file to the stage 
 9. Type `git commit -m "message"` for the first commit
 10. Go back to Github and copy and paste `git remote add origin <url>` 
-11. Lastly, type `git push -u origin master` **This is pushing commits from cloud9 to Github**
+11. Lastly, type `git push -u origin master` **This is pushing commits from cloud9 to Github**  
+_Woo hoo! You just created a new repository on your Github!_
 
-###### _Woo hoo! You just created a new repository on your Github!_
 ---
 ## Workflow & Commands
 **_Git Status:_**
@@ -90,7 +90,7 @@ Github: stores code in the cloud, which is known as [Github](https://github.com/
         3. **master** is the branch of the project (you always see **master** when you initialize git)
     3. After these commands, you can `git push` to send commits to Github now  
 
-###### _Woo hoo! You just learned how to push commits to Github!_
+_Woo hoo! You just learned how to push commits to Github!_
 
 ---
 ## Rolling Back Changes
