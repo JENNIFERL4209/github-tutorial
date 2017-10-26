@@ -58,8 +58,6 @@ Github: stores code in the cloud, which is known as [Github](https://github.com/
 10. Go back to Github and copy and paste `git remote add origin <url>` 
 11. Lastly, type `git push -u origin master` **This is pushing commits from cloud9 to Github**  
 
-_Woo hoo! You just created a new repository on your Github!_
-
 ---
 ## Workflow & Commands
 **_Git Status:_**
