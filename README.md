@@ -90,7 +90,7 @@ Github: stores code in the cloud, which is known as [Github](https://github.com/
         3. **master** is the branch of the project (you always see **master** when you initialize git)
     3. After these commands, you can `git push` to send commits to Github now  
 
-_Woo hoo! You just learned how to push commits to Github!_
+###### _Woo hoo! You just learned how to push commits to Github!_
 
 ---
 ## Rolling Back Changes
